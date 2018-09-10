@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  display: block;
+
+  /* 点击的时候 背景高亮 移动端才有  */
+  -webkit-tap-highlight-color: transparent;
+}
+img{
+  width: 100%;
+  // 去除掉图片标签默认的3px间隙
+  display: block;
+}
+ul{
+  list-style: none;
+}
+.clearfix::after{
+  content: "";
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+  display: block;
+}

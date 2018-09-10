@@ -1,0 +1,214 @@
+body{
+    padding:.45rem 0;
+    font-size:16px;
+    background-color: #f7f7f7;
+}
+header{
+
+    position: fixed;
+    top:0;
+    left:0;
+    padding:0 0.1rem;
+    height: 0.45rem;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#d3079e;
+    background-color: #f7f7f7;
+    z-index: 100;
+    .loc{
+        font-size:.16rem;
+    }
+    .web_name{
+        font-size:.2rem;
+        color:#000;
+        position: absolute;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .fa-user-o{
+        font-size:0.26rem;
+
+    }
+    // background-color: #f7f7f7;
+}
+
+.lmm_view{
+    
+}
+.swiper-container {
+    width: 100%;
+img{
+  width: 100%;
+}
+}  
+
+
+// 景点门票部分
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    padding:0.04rem 0;
+    a{
+        width: 33.33%;
+        padding:0.04rem 0; 
+        img{
+            width: 96%;
+            margin:0 auto;
+        }
+    }
+}
+// 景点门票部分结束
+
+
+// 机票部分开始
+.plane{
+    border-top: 1px solid #ccc;
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:.1rem;
+
+    a{
+        width: 25%;
+        // height: 1rem;
+       
+        border-bottom: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        &:nth-child(4n){
+            border-right: none;
+        }
+
+    }
+}
+
+
+// 机票部分结束
+
+// 驴悦亲子部分开始
+.family{
+    border-top:1px solid #ccc;
+    margin-bottom:.1rem;
+    
+    
+    a{
+        float: left;
+        width: 50%;
+        border-bottom:1px solid #ccc;
+        &:nth-last-child(-n+2){
+            border-left:1px solid #ccc;
+        }
+    }
+}
+
+
+// 驴悦亲子部分结束
+
+// 热门活动部分开始
+.hot{
+    margin-bottom:.1rem;
+    
+    .hot_title{
+        padding-left:.2rem;
+        font-size:.18rem;
+        height: 0.4rem;
+        line-height: .4rem;
+        background-color: #f1f1f1;
+        border-bottom:1px solid #ccc;
+
+    }
+    .hot_content{
+        width: 100%;
+        a{
+            border-bottom:1px solid #ccc;
+        }
+    }
+}
+
+
+// 热门活动部分结束
+
+// 度周末部分开始
+.weekend{
+    .wk_title{
+        border-top:1px solid #ccc;
+        background-color: #fff;
+        display:flex;
+        justify-content: space-around;
+        span{
+            font-size:.18rem;
+            padding:.1rem 0;
+            
+           &:first-child{
+            color:#d3079e;
+            border-bottom:2px solid #d3079e;
+            
+           }
+        }
+    }
+    .wk_content{
+        background-color: #f1f1f1;
+        a{
+            background-color: #fff;
+            padding-bottom:.06rem;
+            border-bottom:1px solid #ccc;
+            margin-bottom:.1rem;
+            box-shadow:1px 4px 11px 0px rgba(0, 0, 0, 0.3);
+            p{
+                height: .25rem;
+                line-height: .25rem;
+                font-size:.14rem;
+                &:last-child{
+                    font-size:.15rem;
+                    color:#666;
+                }
+            }
+
+        }
+        
+    }
+}
+
+// 度周末部分结束
+
+
+
+
+
+.more{
+    text-align:center;
+    height: 0.3rem;
+    line-height: .3rem;
+    background-color: #fff;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    margin-bottom:.1rem;
+    font-size:.14rem;
+    color:#666;
+}
+
+// 底部部分开始
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    padding:0 .1rem;
+    height: 0.4rem;
+    width: 100%;
+    line-height: .4rem;
+    background-color: #d3079e;
+    color:#fff;
+    z-index: 100;
+    a{
+        float: left;
+        margin-right:.2rem;
+    }
+    .top{
+        float: right;
+    }
+}
+
+
+
+// 底部部分结束
